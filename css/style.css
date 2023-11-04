@@ -63,13 +63,18 @@ img {
   position: relative;
 }
 
+.header-menu a:hover {
+  color: #4ba4f2;
+  transition: 0.23s;
+}
+
 /* Efeito de linha sob os links no menu */
 .header-menu a:after {
   content: "";
   display: block;
   height: 2px;
   width: 0%;
-  background: #ffffff;
+  background: #4ba4f2;
   margin-top: 4px;
   transition: 0.23s;
   position: absolute;
