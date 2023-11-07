@@ -1,0 +1,102 @@
+.imoveis-lista {
+  padding-top: 40px;
+}
+
+.imoveis-lista h2 {
+  margin-bottom: 40px;
+  color: var(--cor-11);
+  font: 600 1.75rem/1.42 "Poppins", sans-serif;
+}
+
+.imoveis-lista ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.imoveis-lista a {
+  display: block;
+}
+
+.imoveis-lista img {
+  margin-bottom: 12px;
+}
+
+.imoveis-lista h3 {
+  color: var(--cor-11);
+  font: 600 1.5rem/1.42 "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.imoveis-lista h3::before {
+  content: "";
+  background-color: var(--cor-b1);
+  height: 8px;
+  width: 12px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 1px;
+  transition: width 0.22s;
+}
+
+.imoveis-lista a:hover h3::before {
+  width: 22px;
+}
+
+.imoveis-lista li p {
+  margin-left: 20px;
+  margin-bottom: 14px;
+  color: var(--cor-8);
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+.preco {
+  margin-left: 20px;
+  display: block;
+  color: var(--cor-10);
+  font: 600 1.125rem/1 "Poppins", sans-serif;
+}
+
+.botao-ver-todos {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.botao-ver-todos a {
+  display: inline-block;
+  padding: 22px 60px;
+  background: var(--cor-gd1);
+  color: var(--cor-0);
+  text-transform: uppercase;
+  border-radius: 7.5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  font: 500 0.875rem "Poppins", sans-serif;
+}
+
+.botao-ver-todos a:hover {
+  background: var(--cor-gd2);
+}
+
+@media (max-width: 800px) {
+  .imoveis-lista ul {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .imoveis-lista h2 {
+    font: 600 1.5rem/1.42 "Poppins", sans-serif;
+  }
+  .imoveis-lista h3 {
+    font: 600 1.25rem/1.42 "Poppins", sans-serif;
+  }
+  .imoveis-lista li p {
+    font: 400 0.875rem "Roboto", sans-serif;
+  }
+}

@@ -1,0 +1,149 @@
+/* ---------- Seção de Introdução ---------- */
+
+/* Estilos para a seção de introdução na página inicial */
+.introducao-bg {
+  background-image: url(../../img/images/home/search.png);
+  background-position: center;
+  height: 100%;
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Estilos para o título na seção de introdução */
+.introducao h1 {
+  font: 700 4.5rem "Roboto", sans-serif;
+  color: var(--cor-0);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.introducao {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para o contêiner de busca na seção de introdução */
+.container-busca {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  background: var(--cor-1);
+  height: 160px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o campo de busca */
+.busca {
+  display: flex;
+  align-items: center;
+  background: var(--cor-3);
+  width: 608px;
+  height: 70px;
+  border-radius: 7.5px;
+  line-height: 2.13333;
+  gap: 32px;
+}
+
+/* Estilos para o ícone no campo de busca */
+.busca img {
+  margin: 0px 0px 0px 40px;
+  width: 18px;
+  height: 24px;
+}
+
+/* Estilos para o campo de busca */
+#campo-busca {
+  background: var(--cor-3);
+  color: var(--cor-8);
+  border: none;
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+#campo-busca:focus {
+  outline: none;
+}
+
+/* Estilos introdução para telas menores (1200px pra baixo)*/
+@media (max-width: 1200px) {
+  .introducao-bg {
+    padding: 0;
+    height: 450px;
+  }
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .container-busca {
+    height: 140px;
+  }
+  .busca {
+    width: 500px;
+    height: 60px;
+  }
+  #campo-busca {
+    font-size: 0.875rem;
+  }
+}
+
+/* Estilos introdução para telas menores (800px pra baixo)*/
+@media (max-width: 800px) {
+  .introducao-bg {
+    height: 350px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .container-busca {
+    width: 550px;
+    height: 110px;
+  }
+  .busca {
+    height: 50px;
+    gap: 20px;
+  }
+  .busca img {
+    width: 14px;
+    height: 20px;
+    margin: 0px 0px 0px 20px;
+  }
+  #campo-busca {
+    font-size: 0.813rem;
+  }
+}
+
+/* Estilos introdução para telas menores (600px pra baixo)*/
+@media (max-width: 600px) {
+  .introducao-bg {
+    height: 300px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .container-busca {
+    width: 450px;
+    height: 90px;
+    gap: 0px;
+  }
+  .busca {
+    width: 350px;
+    height: 46px;
+    font-size: 0.625rem;
+    gap: 20px;
+    border-radius: 7.5px 0px 0px 7.5px;
+  }
+  .busca img {
+    width: 14px;
+    height: 20px;
+    margin: 0px 0px 0px 20px;
+  }
+  #campo-busca {
+    font-size: 0.75rem;
+  }
+}

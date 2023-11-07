@@ -1,0 +1,49 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  background: var(--cor-gd1);
+  color: var(--cor-0);
+  border: none;
+  border-radius: 7.5px;
+  padding: 32px 70px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 500 1.125rem "Poppins", sans-serif;
+}
+
+.botao:hover {
+  background: var(--cor-gd2);
+}
+
+/* Estilos introdução para telas menores (1200px pra baixo)*/
+@media (max-width: 1200px) {
+  .botao {
+    padding: 26px 64px;
+    font-size: 1rem;
+  }
+}
+
+/* Estilos introdução para telas menores (800px pra baixo)*/
+@media (max-width: 800px) {
+  .botao {
+    font-size: 0.875rem;
+    padding: 22px 58px;
+  }
+}
+
+/* Estilos introdução para telas menores (600px pra baixo)*/
+@media (max-width: 600px) {
+  .botao {
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 14px 38px;
+    border-radius: 0px 7.5px 7.5px 0px;
+  }
+}

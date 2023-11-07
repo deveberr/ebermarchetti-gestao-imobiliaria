@@ -1,0 +1,86 @@
+/* ---------- Cabeçalho ---------- */
+
+.header-bg {
+  background-color: var(--cor-b11);
+}
+
+/* Define estilos para o cabeçalho */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Define estilos para o menu de navegação */
+.header-menu {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Define estilos para links no menu de navegação */
+.header-menu a {
+  color: var(--cor-0);
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+  font: 400 1.125rem "Roboto", sans-serif;
+}
+
+.header-menu a:hover {
+  color: var(--cor-b1);
+  transition: 0.23s;
+}
+
+/* Efeito de linha sob os links no menu */
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: var(--cor-b1);
+  margin-top: 4px;
+  transition: 0.23s;
+  position: absolute;
+}
+
+/* Efeito de expansão da linha sob os links no menu quando passa o mouse */
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+/* Estilos para telas menores (max-width: 800px) */
+@media (max-width: 800px) {
+  .header-menu {
+    gap: 20px;
+  }
+  .header-menu a {
+    background: var(--cor-b11);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .header-menu a:hover {
+    background: var(--cor-10);
+  }
+  .header a:after {
+    display: none;
+  }
+}
+
+/* Estilos para telas menores (max-width: 600px) */
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 12px;
+  }
+  .header-menu a {
+    padding: 8px 12px;
+    font-size: 0.875rem;
+  }
+}

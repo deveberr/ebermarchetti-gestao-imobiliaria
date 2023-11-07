@@ -9,17 +9,22 @@
     <meta name="description"
         content="Para alugar ou comprar imóveis, salas comerciais, consulte a Eber Marchetti Gestão Imobiliária. Inúmeras opções de imóveis à venda ou locação no Rio de Janeiro - RJ">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header class="header-bg"> <!--Header-->
+    <header class="header-bg"> <!-- Header -->
         <div class="header">
             <a href="./"><img src="./img/logo-header/logo-header.svg" alt="Eber Marchetti Gestão Imobiliária">
             </a>
 
             <nav aria-label="primaria">
                 <ul class="header-menu">
-                    <li><a href="./alugar-imoveis.html">Alugar</a></li>
+                    <li><a href=" ./alugar-imoveis.html">Alugar</a></li>
                     <li><a href="./comprar-imoveis.html">Comprar</a></li>
                     <li><a href="./contato.html">Contato</a></li>
                 </ul>
@@ -27,7 +32,7 @@
         </div>
     </header>
 
-    <main class="introducao-bg">
+    <main class="introducao-bg"> <!-- Introdução -->
         <div class="introducao">
             <div class="introducao-conteudo">
                 <h1>Encontre seu imóvel</h1>
@@ -39,11 +44,63 @@
                                 placeholder="Digite a cidade, bairro ou código do imóvel..." autocomplete="off">
                         </form>
                     </div>
-                    <input type="submit" value="Buscar" class="botao-form">
+                    <input type="submit" value="Buscar" class="botao">
                 </div>
             </div>
         </div>
     </main>
+
+    <article class="imoveis-lista"> <!-- Lista de Imóveis -->
+        <h2 class="container">IMÓVEIS PARA ALUGAR NO RIO DE JANEIRO</h2>
+        <ul>
+            <li>
+                <a href="./bicicletas/casa.html">
+                    <img src="./img/images/home/imv1.png" alt="Imóvel 1">
+                    <h3>Casa</h3>
+                    <p>Camorim, Rio de Janeiro</p>
+                    <span class="preco">R$ 380.000</span>
+                </a>
+            </li>
+            <li>
+                <a href="./bicicletas/apartamento.html">
+                    <img src="./img/images/home/imv2.png" alt="Imóvel 2">
+                    <h3>Apartamento</h3>
+                    <p>Barra da Tijuca, Rio de Janeiro</p>
+                    <span class="preco">R$ 420.000</span>
+                </a>
+            </li>
+            <li>
+                <a href="./bicicletas/cobertura.html">
+                    <img src="./img/images/home/imv3.png" alt="Imóvel 3">
+                    <h3>Cobertura</h3>
+                    <p>Copacabana, Rio de Janeiro</p>
+                    <span class="preco">R$ 630.000</span>
+                </a>
+            </li>
+        </ul>
+        <div class="botao-ver-todos">
+            <a href="#">Ver todos +</a>
+        </div>
+    </article>
+
+    <article class="motivacao-bg"> <!-- Motivação -->
+        <div class="motivacao containter">
+            <div class="motivacao-imagem">
+                <img src="./img/images/home/family.png" alt="Imagem de uma família">
+            </div>
+
+            <div class="motivacao-conteudo">
+                <h2>A felicidade reside nos<br />
+                    detalhes e nas<br />
+                    experiências que<br />
+                    compartilhamos em<br />
+                    nossa casa<span>.</span>
+                </h2>
+                <p>Nossa missão é proporcionar a você uma jornada<br />
+                    tranquila e memorável na busca por sua casa ideal.</p>
+            </div>
+        </div>
+    </article>
 
     <script src="./home.js"></script>
 </body>
