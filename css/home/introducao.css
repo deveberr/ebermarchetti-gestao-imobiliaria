@@ -2,7 +2,7 @@
 
 /* Estilos para a seção de introdução na página inicial */
 .introducao-bg {
-  background-image: url(../../img/images/home/search.png);
+  background-image: url(../../img/images/home/search.webp);
   background-position: center;
   height: 100%;
   padding: 100px;
@@ -53,8 +53,6 @@
 /* Estilos para o ícone no campo de busca */
 .busca img {
   margin: 0px 0px 0px 40px;
-  width: 18px;
-  height: 24px;
 }
 
 /* Estilos para o campo de busca */

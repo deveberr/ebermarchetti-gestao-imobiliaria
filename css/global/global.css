@@ -28,9 +28,11 @@ a {
 /* Define estilos para imagens */
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
-img[src$=".png"] {
+img[src$=".png"],
+img[src$=".webp"] {
   border-radius: 10px;
 }

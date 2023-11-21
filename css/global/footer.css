@@ -1,0 +1,59 @@
+.footer-bg {
+  margin-top: 80px;
+  background-color: var(--cor-footer);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+  padding-top: 80px;
+}
+
+.footer h3 {
+  font: 500 1.25rem/1.3 "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.footer-contato ul {
+  font: 400 1rem "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
+
+.footer-informacoes ul {
+  font: 400 1rem "Poppins", sans-serif;
+}
+
+.footer-contato li {
+  margin-bottom: 16px;
+}
+
+.footer-informacoes li {
+  margin-bottom: 16px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-redes img:hover {
+  color: var(--cor-b2);
+  transition: 0.25s;
+}
+
+.footer a:hover {
+  color: var(--cor-b2);
+  transition: 0.25s;
+}
+
+.footer-copy p {
+  font: 400 1rem/1.7 "Roboto", sans-serif;
+}
+
+.footer-copy {
+  grid-column: 1/-1;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}

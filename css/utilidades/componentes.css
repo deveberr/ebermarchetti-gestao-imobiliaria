@@ -8,18 +8,17 @@
 }
 
 .botao {
-  background: var(--cor-gd1);
+  background: var(--cor-b6);
   color: var(--cor-0);
   border: none;
-  border-radius: 7.5px;
+  border-radius: 8px;
   padding: 32px 70px;
   cursor: pointer;
-  text-transform: uppercase;
   font: 500 1.125rem "Poppins", sans-serif;
 }
 
 .botao:hover {
-  background: var(--cor-gd2);
+  background: var(--cor-b7);
 }
 
 /* Estilos introdução para telas menores (1200px pra baixo)*/
@@ -46,4 +45,15 @@
     padding: 14px 38px;
     border-radius: 0px 7.5px 7.5px 0px;
   }
+}
+
+/* Títulos Internos */
+.titulo-bg {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--cor-11);
+}
+
+.titulo P {
+  margin-bottom: 20px;
 }

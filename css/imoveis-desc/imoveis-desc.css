@@ -1,0 +1,111 @@
+.imovel-preco {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.imovel-preco h2 {
+  font: 600 1.75rem "Poppins", sans-serif;
+  color: var(--cor-10);
+}
+
+.imovel-preco p {
+  display: inline-block;
+  font: 400 0.75rem "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  background: var(--cor-green-gradient1);
+  padding: 7px 20px;
+  border-radius: 4px;
+}
+
+.house {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.house p {
+  font: 400 1rem/2 "Roboto", sans-serif;
+}
+
+.local {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.local p {
+  font: 400 1rem/2 "Roboto", sans-serif;
+}
+
+.imovel-imagens {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.imovel-imagens img {
+  min-width: 200px;
+}
+
+.area1 {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 120px; */
+  margin-top: 20px;
+}
+
+.informacoes-imovel {
+  margin-top: 20px;
+  width: 800px;
+  padding: 20px 40px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 7.5px;
+}
+
+.informacoes-imovel h2:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: var(--cor-4);
+  margin-top: 20px;
+}
+
+.caracteristicas {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mapa img {
+  width: 800px;
+}
+
+.botao-contato {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background: #1c8d2f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font: 500 0.875rem/2.4 "Poppins", sans-serif;
+  transition: background 0.22s;
+}
+
+.botao-contato:hover {
+  background: #156a24;
+}
+
+.botao-contato img {
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+}
+
+.botao-contato span {
+  margin-right: 5px;
+}

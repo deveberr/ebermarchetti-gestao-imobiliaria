@@ -1,17 +1,32 @@
 .motivacao-bg {
   background-color: var(--cor-b11);
-  box-shadow: inset 0 -120px var(--cor-0);
+  box-shadow: inset 0 -80px var(--cor-0);
 }
 
 .motivacao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  align-items: center;
+}
+
+.motivacao-imagem {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  width: 660px;
+  height: 668px;
 }
 
 .motivacao-imagem img {
+  width: 660px;
+  height: 668px;
   height: 100%;
   object-fit: cover;
+}
+
+.motivacao-conteudo {
+  padding-bottom: 70px;
 }
 
 .motivacao-conteudo h2 {
@@ -25,7 +40,7 @@
 }
 
 .motivacao-conteudo span {
-  color: var(--cor-b1);
+  color: var(--cor-b2);
 }
 
 .motivacao-conteudo > h2 {

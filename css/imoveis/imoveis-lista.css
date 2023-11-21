@@ -25,6 +25,8 @@
 
 .imoveis-lista img {
   margin-bottom: 12px;
+  width: 360px;
+  height: 450px;
 }
 
 .imoveis-lista h3 {
@@ -36,7 +38,7 @@
 
 .imoveis-lista h3::before {
   content: "";
-  background-color: var(--cor-b1);
+  background-color: var(--cor-b3);
   height: 8px;
   width: 12px;
   display: inline-block;
@@ -70,17 +72,16 @@
 
 .botao-ver-todos a {
   display: inline-block;
-  padding: 22px 60px;
-  background: var(--cor-gd1);
+  padding: 15px 40px;
+  background: var(--cor-b6);
   color: var(--cor-0);
-  text-transform: uppercase;
-  border-radius: 7.5px;
+  border-radius: 8px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  font: 500 0.875rem "Poppins", sans-serif;
+  font: 500 1rem "Poppins", sans-serif;
 }
 
 .botao-ver-todos a:hover {
-  background: var(--cor-gd2);
+  background: var(--cor-b7);
 }
 
 @media (max-width: 800px) {

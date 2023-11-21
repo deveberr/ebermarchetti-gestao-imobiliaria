@@ -22,8 +22,12 @@
   --cor-b9: #00112b;
   --cor-b10: #000b1b;
   --cor-b11: #010710;
-  --cor-gd1: linear-gradient(#002966, #001c45);
-  --cor-gd2: linear-gradient(#0b2a5a, #011530);
+  /* --cor-gd1: linear-gradient(#002966, #001c45); */
+  /* --cor-gd2: linear-gradient(#0b2a5a, #011530); */
+  --cor-gd1: linear-gradient(#053070, #00183d);
+  --cor-gd2: linear-gradient(#013685, #081e3e);
+  --cor-green-gradient1: linear-gradient(#2abd27, #47bc45);
+  --cor-footer: #051020;
 }
 
 .cor-0 {
@@ -105,4 +109,8 @@
 }
 .cor-gd1 {
   color: var(--cor-gd2);
+}
+
+.cor-footer {
+  color: var(--cor-footer);
 }
