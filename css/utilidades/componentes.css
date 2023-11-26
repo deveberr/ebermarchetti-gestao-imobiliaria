@@ -21,33 +21,6 @@
   background: var(--cor-b7);
 }
 
-/* Estilos introdução para telas menores (1200px pra baixo)*/
-@media (max-width: 1200px) {
-  .botao {
-    padding: 26px 64px;
-    font-size: 1rem;
-  }
-}
-
-/* Estilos introdução para telas menores (800px pra baixo)*/
-@media (max-width: 800px) {
-  .botao {
-    font-size: 0.875rem;
-    padding: 22px 58px;
-  }
-}
-
-/* Estilos introdução para telas menores (600px pra baixo)*/
-@media (max-width: 600px) {
-  .botao {
-    font-size: 0.75rem;
-    font-weight: 400;
-    padding: 14px 38px;
-    border-radius: 0px 7.5px 7.5px 0px;
-  }
-}
-
-/* Títulos Internos */
 .titulo-bg {
   padding-top: 32px;
   padding-bottom: 32px;

@@ -10,7 +10,7 @@
   color: var(--cor-10);
 }
 
-.imovel-preco p {
+.status {
   display: inline-block;
   font: 400 0.75rem "Poppins", sans-serif;
   text-transform: uppercase;
@@ -18,6 +18,12 @@
   background: var(--cor-green-gradient1);
   padding: 7px 20px;
   border-radius: 4px;
+}
+
+.codigo {
+  display: inline-block;
+  font: 400 1rem "Poppins", sans-serif;
+  color: var(--cor-b3);
 }
 
 .house {
