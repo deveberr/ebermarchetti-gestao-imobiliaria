@@ -7,20 +7,6 @@
   margin-right: auto;
 }
 
-.botao {
-  background: var(--cor-b6);
-  color: var(--cor-0);
-  border: none;
-  border-radius: 8px;
-  padding: 32px 70px;
-  cursor: pointer;
-  font: 500 1.125rem "Poppins", sans-serif;
-}
-
-.botao:hover {
-  background: var(--cor-b7);
-}
-
 .titulo-bg {
   padding-top: 32px;
   padding-bottom: 32px;

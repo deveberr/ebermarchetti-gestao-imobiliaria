@@ -24,14 +24,16 @@
 
 <body>
     <header class="header-bg"> <!-- Header -->
-        <div class="header">
-            <a href="./index.html"><img src="./img/logo-header/logo-header.svg" width="228" height="62"
-                    alt="Eber Marchetti Gestão Imobiliária">
+        <div class="header container">
+            <a href="./index.html"><img src="./img/logo-header/logo-header.svg" alt="Eber Marchetti Gestão Imobiliária">
             </a>
 
-            <nav aria-label="primaria">
+            <nav class="nav" aria-label="primaria">
+                <button class="btn-mobile" aria-expanded="false">Menu
+                    <span class="hamburguer"></span>
+                </button>
                 <ul class="header-menu">
-                    <li><a href="index.html">Início</a></li>
+                    <li><a href="./index.html">Início</a></li>
                     <li><a href="./imoveis/locacao.html">Locação</a></li>
                     <li><a href=".//imoveis/venda.html">Venda</a></li>
                     <li><a href="./contato.html">Contato</a></li>
@@ -48,8 +50,8 @@
                     <div class="busca">
                         <img src="./img/geral-icons/local.svg" width="18" height="25" alt="">
                         <form action="" method="get">
-                            <input type="text" name="busca" id="campo-busca"
-                                placeholder="Digite a cidade, bairro ou código do imóvel..." autocomplete="off">
+                            <input type="text" name="busca" id="campo-busca" placeholder="Digite o código do imóvel..."
+                                autocomplete="off">
                         </form>
                     </div>
                     <input type="submit" value="Buscar" class="botao">
@@ -107,9 +109,9 @@
             </div>
 
             <div class="motivacao-conteudo">
-                <h2>A felicidade reside nos<br />
-                    detalhes e nas<br />
-                    experiências que<br />
+                <h2>A felicidade reside nos
+                    detalhes e nas
+                    experiências que
                     compartilhamos em<br />
                     nossa casa<span>.</span>
                 </h2>
