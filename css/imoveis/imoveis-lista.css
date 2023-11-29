@@ -10,23 +10,15 @@
 
 .imoveis-lista ul {
   display: flex;
-  justify-content: center;
   gap: 40px;
-  padding: 0 20px;
   max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 40px;
-}
-
-.imoveis-lista a {
-  display: block;
 }
 
 .imoveis-lista img {
   margin-bottom: 12px;
-  width: 360px;
-  height: 450px;
+  height: auto;
+  max-width: 100%;
 }
 
 .imoveis-lista h3 {
@@ -62,7 +54,7 @@
   position: relative;
 }
 
-.span1 {
+.span-home {
   background-color: var(--cor-b6);
   display: inline-block;
   padding: 8px 16px 8px 16px;
@@ -99,4 +91,47 @@
 
 .botao-ver-todos a:hover {
   background: var(--cor-b7);
+}
+
+/* Media Queries*/
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .span-home {
+    padding: 5px 10px 5px 10px;
+    font: 400 0.75rem "Poppins", sans-serif;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.01);
+  }
+}
+
+@media (max-width: 768px) {
+  .botao-ver-todos a {
+    font: 400 1.125rem "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 600px) {
+  .imoveis-lista ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .imoveis-lista img {
+    max-width: 100%;
+    height: auto;
+  }
+  .imoveis-lista h3 {
+    font: 600 1.25rem/1.42 "Poppins", sans-serif;
+  }
+  .imoveis-lista li p {
+    font: 400 1.125rem "Roboto", sans-serif;
+  }
+  .preco {
+    font: 600 1.25rem/1 "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 480px) {
 }
