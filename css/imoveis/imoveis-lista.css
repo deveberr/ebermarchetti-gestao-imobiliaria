@@ -109,6 +109,12 @@
   .botao-ver-todos a {
     font: 400 1.125rem "Poppins", sans-serif;
   }
+  .imoveis-lista h3 {
+    font: 600 1.475rem/1.42 "Poppins", sans-serif;
+  }
+  .imoveis-lista li p {
+    font: 400 1.125rem "Roboto", sans-serif;
+  }
 }
 
 @media (max-width: 600px) {
@@ -123,7 +129,7 @@
     height: auto;
   }
   .imoveis-lista h3 {
-    font: 600 1.25rem/1.42 "Poppins", sans-serif;
+    font: 600 1.475rem/1.42 "Poppins", sans-serif;
   }
   .imoveis-lista li p {
     font: 400 1.125rem "Roboto", sans-serif;

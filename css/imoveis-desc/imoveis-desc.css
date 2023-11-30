@@ -53,22 +53,31 @@
 }
 
 .imovel-imagens img {
-  min-width: 200px;
+  min-width: 100px;
+}
+
+.area-mapa {
+  margin-top: 20px;
+}
+
+.area-caracteristicas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .area1 {
   display: flex;
   justify-content: space-between;
-  /* gap: 120px; */
   margin-top: 20px;
 }
 
 .informacoes-imovel {
   margin-top: 20px;
-  width: 800px;
   padding: 20px 40px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 7.5px;
+  max-width: 720px;
 }
 
 .informacoes-imovel h2:after {
@@ -83,10 +92,6 @@
   display: flex;
   align-items: center;
   gap: 5px;
-}
-
-.mapa img {
-  width: 800px;
 }
 
 .botao-contato {
@@ -114,4 +119,57 @@
 
 .botao-contato span {
   margin-right: 5px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .imovel-preco h2 {
+    font-size: 1.475rem;
+  }
+  .status {
+    font-size: 1rem;
+  }
+  .house p {
+    font-size: 1.125rem;
+  }
+  .local p {
+    font-size: 1.125rem;
+  }
+  .informacoes-imovel p {
+    font-size: 1.125rem;
+  }
+  .informacoes-imovel h3 {
+    font-size: 1.275rem;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+  .area-caracteristicas {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .caracteristicas {
+    margin-top: 10px;
+  }
+  .imovel {
+    margin-top: -10px;
+  }
+  .local p {
+    font-size: 1.125rem;
+  }
+  .informacoes-imovel p {
+    font-size: 1rem;
+  }
+  .informacoes-imovel h3 {
+    font-size: 1rem;
+  }
 }
