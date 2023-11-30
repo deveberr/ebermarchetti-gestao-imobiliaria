@@ -53,3 +53,34 @@
 .form button:hover {
   background: var(--cor-b7);
 }
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .form label,
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"],
+  .form textarea,
+  .form button {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .form label,
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"],
+  .form textarea,
+  .form button {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 480px) {
+}
