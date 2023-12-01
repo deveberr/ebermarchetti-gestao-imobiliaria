@@ -1,6 +1,6 @@
 .termos {
   padding-top: 60px;
-  padding-bottom: px;
+  padding-bottom: 0px;
 }
 
 .termos h2 {
@@ -10,4 +10,22 @@
 .termos p {
   max-width: 115ch;
   margin-bottom: 22px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+  .termos {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
 }
