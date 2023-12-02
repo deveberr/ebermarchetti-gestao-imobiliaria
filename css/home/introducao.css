@@ -26,6 +26,26 @@
   align-items: center;
 }
 
+.botao-ver-todos-home {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.botao-ver-todos-home a {
+  display: inline-block;
+  padding: 15px 25px;
+  background: var(--cor-b6);
+  color: var(--cor-0);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  font: 500 1rem "Poppins", sans-serif;
+}
+
+.botao-ver-todos-home a:hover {
+  background: var(--cor-b7);
+}
+
 /* Estilos para o contêiner de busca na seção de introdução */
 .container-busca {
   gap: 20px;
